@@ -1,0 +1,14 @@
+*{
+    background-color: burlywood;
+}
+h2{
+    font-size: 40px;
+}
+#try{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+#try2{
+    padding-top: 100px;
+}

@@ -1,0 +1,29 @@
+extends base.pug 
+block scripts
+    script(src='/static/index.js')
+block style 
+    style
+        include ../static/stylefeedback.css
+
+block content
+    div#try
+        h2 Give your feedback
+        form(action="/feedback",method= "post")
+            div#try2
+                br
+                | Name &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp:
+                input(type="text" name="ourname")
+                br
+                br
+                | Phone no. &nbsp &nbsp &nbsp: 
+                input(type="number" name="ourno")
+                br
+                br
+                | Feedback &nbsp &nbsp: 
+                textarea(name="ourtext" cols="30" rows="10")
+                br
+                br
+                input(type="submit" value="Submit now")
+
+    
+            

@@ -1,0 +1,57 @@
+extends base.pug 
+block scripts
+    script(src='/static/index.js')
+block style 
+    style
+        include ../static/styleregister.css
+
+block content 
+    section#reg 
+        div.abc 
+            h2 Register With Us 
+            form(action="/register",method= "post")
+                br 
+                div 
+                    | Name: 
+                    input(type="text" name="myname")
+                br 
+                div 
+                    |Aadhar no.: 
+                    input(type="number" name="myaad")
+                br
+                div 
+                    |Date of birth: 
+                    input(type="date" name="mydate")
+                br
+                div 
+                    |Phone number: 
+                    input(type="number" name="mynum")
+                br
+                div 
+                    |Minimum working hours: 
+                    input(type="number" name="mywhr")
+                br
+                div 
+                    |Gender: 
+                    |Male 
+                    input(type="checkbox" name="mygen" )
+                    |Female:
+                    input(type="checkbox" name="mygen" )
+                    |Other: 
+                    input(type="checkbox" name="mygen" )
+                br
+                div
+                    |Address: 
+                    textarea(name="mytext" cols="30" rows="10")
+                br
+                div 
+                    input(type="reset" value="Reset")
+                    input(type="submit" value="Submit now")
+      
+
+
+
+                        
+
+                
+

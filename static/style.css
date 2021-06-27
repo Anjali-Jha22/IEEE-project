@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+/* comments for navbar */
+.navbar{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+      align-items: center;
+      top: 0px;
+      left: 0px;
+      background-color:rgba(117, 119, 107, 0.09);
+  }
+  .navbar ul{
+    display: flex;
+  }
+  .navbar ul li{
+    list-style: none;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 3px 22px;
+    border-radius: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .navbar ul li a:hover{
+    opacity: 0.8;
+    background-color:rgba(207, 208, 200, 0.63);
+  }
+
+  /* Comments for section 1 */
+#int{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    /* border: 2px solid black; */
+    align-items: center;
+    margin:70px auto;
+    justify-content: center;
+  }
+  #int p{
+    font-size: 21px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    
+  }
+  #int::before{
+      content: "";
+      position: absolute;
+      background: url('/static/p5.jpg') no-repeat center center/cover;
+      height: 550px;
+      top:0px;
+      left:0px;
+      width: 100%;
+      z-index: -1;
+      opacity:0.89;
+  
+    }
+    /*customising h1*/
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
+    }
+    .btn{
+      border-radius: 5px;
+      cursor:pointer;
+      width: 142px;
+        height: 28px;
+    }
+    .btn:hover{
+    box-shadow:inset 3px 3px 3px 3px rgba(205, 200, 204, 0.54);
+    }
+
+    /* extra section */
+.xyz{
+    display: flex;
+    /* padding: 54px; */
+    /* border: 2px solid red; */
+    width: 100% ;
+  margin-top: 139px;
+  height: 275px;
+  }
+  .ashu{
+    background-color:rgb(103, 171, 210);
+    width: 33.33%;
+    padding: 25px;
+  }
+  
+  .ashu1{
+    background-color: rgb(108, 205, 182);
+    width: 33.33%;
+      padding: 25px;
+  
+  }
+  .ashu2{
+    background-color:rgb(103, 171, 210);
+    width: 33.33%;
+      padding: 25px;
+  
+  }
+  #y{
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+  }
+  #z{
+    font-family: 'Lora', serif;
+  
+  }
+  .but{
+    width: 25%;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    justify-content:
+  
+  }
+  .xyz .but{
+    margin-bottom: 10px;
+  }
+  .xyz .but:hover{
+    cursor: pointer;
+    background-color: rgba(138, 129, 135, 0.08); /*cursor bg colour*/
+  }
+
+  /* comments for services section */
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 34px;
+    justify-content: center;
+  
+  /* border: 2px solid black; */
+  
+  }
+  
+  .container .box{
+    border: 2px solid black;
+    margin: 2px 50px;
+    padding: 34px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    background-color:rgba(167, 155, 173, 0.26);
+    cursor: pointer;
+    height: 300px;
+    width: 200px;
+  }
+  container .box img{
+    width:300px;
+    height: 150px;
+    display: block;
+    margin: auto;
+  }
+  .box:hover{
+    text-decoration: underline;
+  }
+
+
+  /* Comments for job fairs and events */
+.jfair{
+
+    border:2px solid rgba(138, 129, 135, 0.08);
+    border-radius: 5px;
+    background-color:rgb(108, 205, 182);
+    padding: 0px 34px;
+    cursor: pointer;
+    height: 350px;
+  
+  }
+  h4{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 30px;
+  }
+  #anj{
+    font-family: 'Ubuntu', sans-serif;
+  
+  
+  }
+
+
+  /* marquee */
+#ui{
+    color: red;
+    font-size: 22px;
+  }
+
+
+  /* register*/
+#nice{
+    border:2px solid black;
+    width:130px;
+    height:30px;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', cursive;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: black;
+    position: fixed;
+    right:15px;
+    bottom: 15px;
+  
+  }
+  #nice a{
+    text-decoration: none;
+    color:white;
+    /* background-color: black; */
+  }
+  #nice a:hover{
+    opacity: 0.8;
+  }
+
+/* Footer */
+.f{
+    text-align: center;
+    
+    }

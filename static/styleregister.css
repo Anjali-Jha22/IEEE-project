@@ -1,0 +1,20 @@
+#reg::before{
+    content: "";
+    position: absolute;
+    background: url('/static/p6.jpg') no-repeat center center/cover;
+    width: 99%;
+    height: 96%;
+    z-index: -1;
+    opacity: 0.3;
+    /* height: 500px; */
+   }
+   .abc{
+   /* border: 2px solid black; */
+   padding-left: 34px;
+
+
+   }
+   h2{
+     font-family: 'PT Serif', serif;
+     font-size: 2rem;
+   }
